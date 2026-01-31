@@ -16,6 +16,31 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+li {
+    flex: 1 1 auto;
+}
+
 header, main, footer {
     width: 840px;
     margin: 0 auto;
@@ -40,6 +65,24 @@ h1 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    gap: 40px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
 
 .socialmedia a {
@@ -72,4 +115,57 @@ nav, p, section, article {
     border-radius: 4px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.middle-column {
+    text-align: center;
+}
+
+.middle-column h2 {
+    margin-bottom: 15px;
+}
+
+.middle-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.history p {
+    margin: 0;
+    text-align: justify;
+}
+
+.adventure {
+    padding: 20px;
+    text-align: center;
+}
+
+.adventure h2{
+    margin-bottom: 20px;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.adventure-grid figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-grid img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
 
