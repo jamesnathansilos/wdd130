@@ -101,11 +101,12 @@ footer {
 
 .hero article {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     width: 100%;
     padding: 16px;
     background-color: var(--accent1-color);
     color: #fff;
+    margin: 0 auto;
 }
 
 .hero article img {
