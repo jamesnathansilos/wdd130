@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <meta name="description" content="This page provides contact informations">
+    <meta name="description" content="This page provides contact information and a way for users to get in touch with the company">
     <meta name="author" content="James Nathan Silos">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -41,32 +41,32 @@
 
             <form class="contact-form">
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Your full name" required>
+                <input type="text" name="name" id="name" placeholder="Your full name" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="you@example.com" required>
+                <input type="email" name="email" id="email" placeholder="you@example.com" required>
 
                 <fieldset>
                     <legend>Message Purpose</legend>
                     <div class="radio-group">
-                        <input type="radio" id="general" name="purpose">
+                        <input type="radio" name="general" id="general" name="purpose">
                         <label for="general">General Inquiry</label>
                     </div>
                     <div class="radio-group">
-                        <input type="radio" id="reservation" name="purpose">
+                        <input type="radio" name="reservation" id="reservation" name="purpose">
                         <label for="reservation">Reservation Question</label>
                     </div>
                     <div class="radio-group">
-                        <input type="radio" id="website" name="purpose">
+                        <input type="radio" name="website" id="website" name="purpose">
                         <label for="website">Website Suggestion</label>
                     </div>
                 </fieldset>
 
                 <label for="message">Message</label>
-                <textarea id="message" rows="4" placeholder="Type your message here" required></textarea>
+                <textarea name="message" id="message" rows="4" placeholder="Type your message here" required></textarea>
 
                 <div class="checkbox-group">
-                    <input type="checkbox" id="subscribe">
+                    <input type="checkbox" name="subscribe" id="subscribe">
                     <label for="subscribe">Subscribe to the monthly newsletter</label>
                 </div>
 
